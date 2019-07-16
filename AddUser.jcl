@@ -7,11 +7,11 @@
 //SYSTSPRT DD  SYSOUT=*                                       
 //SYSOUT   DD  SYSOUT=*                                       
 //SYSTSIN  DD  *                                              
- ADDUSER (YDJAIN)          +                                  
+ ADDUSER (newUser    )          +                                  
          OPERATIONS                +                          
-         PASSWORD(IN1TPA55)        +                          
+         PASSWORD(aPass)        +                          
        OMVS(AUTOUID                +                          
-            HOME('/zaas1/ydjain') +                           
+            HOME('/zaas1/newUser') +                           
             PROGRAM('/bin/sh')     +                          
             ASSIZEMAX(2147483647)  +                          
             MEMLIMIT(2G))          +                          
